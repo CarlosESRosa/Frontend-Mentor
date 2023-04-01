@@ -4,10 +4,12 @@ import attibuteImg1 from "./images/icon-access-anywhere.svg";
 import attibuteImg2 from "./images/icon-security.svg";
 import attibuteImg3 from "./images/icon-collaboration.svg";
 import attibuteImg4 from "./images/icon-any-file.svg";
+import stayProductive from "./images/illustration-stay-productive.png";
 
 import "./css/App.css";
 import "./css/Config.css";
 import "./css/GetStarted.css";
+import "./css/StayProductive.css";
 import Button from "./components/Button/Button1.js";
 import Attribute from "./components/Attribute/Attribute.js";
 
@@ -52,6 +54,19 @@ function App() {
           title="Store any type of file"
           text="Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be secyrely stored and shared."
         />
+      </div>
+      <div className="stay-productive">
+        <img src={stayProductive}></img>
+        <h2>Stay productive, wherever you are</h2>
+        <p>
+          Never let location be an issue when accessing your files. Fylo has you
+          covered for all of your file storage needs
+        </p>
+        <p>
+          Secyrely share files and folders wih friends, family and colleagues
+          for live collaboration. No email attachments required.
+        </p>
+        <a href="#">See how Fylo works</a>
       </div>
     </main>
   );
