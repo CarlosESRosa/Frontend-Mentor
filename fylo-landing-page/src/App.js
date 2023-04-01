@@ -1,4 +1,8 @@
 import Header from "./components/Header/Header.js";
+import Button from "./components/Button/Button1.js";
+import Attribute from "./components/Attribute/Attribute.js";
+import UserFeedback from "./components/UserFeedback/UserFeedback.js";
+
 import ilustrationIntro from "./images/illustration-intro.png";
 import attibuteImg1 from "./images/icon-access-anywhere.svg";
 import attibuteImg2 from "./images/icon-security.svg";
@@ -13,10 +17,8 @@ import quotes from "./images/bg-quotes.png";
 import "./css/App.css";
 import "./css/Config.css";
 import "./css/GetStarted.css";
+import "./css/EarlyAccess.css";
 import "./css/StayProductive.css";
-import Button from "./components/Button/Button1.js";
-import Attribute from "./components/Attribute/Attribute.js";
-import UserFeedback from "./components/UserFeedback/UserFeedback.js";
 
 function App() {
   return (
@@ -93,6 +95,16 @@ function App() {
           name="Iva Boyd"
           office="Founder & CEO, Hunddle"
         />
+      </div>
+      <div className="early-access">
+        <h2>Get early access today</h2>
+        <p>
+          It only takes a minute to sign up and our free starter tier is
+          extremely generous. If you have any questions, our support team would
+          be happy to help you.
+        </p>
+        <input type="email" placeholder="email@example.com"></input>
+        <button>Get Started For Free</button>
       </div>
     </main>
   );
