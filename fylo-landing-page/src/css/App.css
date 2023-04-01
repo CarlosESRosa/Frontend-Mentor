@@ -2,3 +2,9 @@ main {
   background-color: var(--mainBG);
   min-height: 100vh;
 }
+
+#quotes {
+  width: 30px;
+  margin-bottom: -4px;
+  margin-left: 6px;
+}
