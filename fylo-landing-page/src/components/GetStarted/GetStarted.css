@@ -1,0 +1,37 @@
+.getStarted {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 340px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.getStarted img {
+  width: 100%;
+}
+
+.getStarted .main-title {
+  color: var(--Neutral);
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.getStarted .basic-text {
+  color: var(--Neutral);
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.getStarted .get-started-button {
+  background-color: var(--blue);
+  color: var(--Neutral);
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  width: 200px;
+  margin: auto;
+  margin-top: 20px;
+}
