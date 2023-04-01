@@ -2,13 +2,14 @@
   display: flex;
   flex-direction: column;
   margin: auto;
-  width: 340px;
+  width: 300px;
   text-align: center;
   margin-top: 40px;
 }
 
 .getStarted img {
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .getStarted .main-title {
@@ -21,17 +22,6 @@
 .getStarted .basic-text {
   color: var(--Neutral);
   font-weight: 400;
-  font-size: 16px;
-  margin-top: 20px;
-}
-
-.getStarted .get-started-button {
-  background-color: var(--blue);
-  color: var(--Neutral);
-  padding: 10px;
-  border-radius: 20px;
-  border: none;
-  width: 200px;
-  margin: auto;
+  font-size: 14px;
   margin-top: 20px;
 }

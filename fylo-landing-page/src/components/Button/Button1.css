@@ -1,0 +1,10 @@
+.get-started-button {
+  background-color: var(--blue);
+  color: var(--Neutral);
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  width: 200px;
+  margin: auto;
+  margin-top: 20px;
+}
