@@ -1,0 +1,26 @@
+.header {
+  background-color: transparent;
+}
+
+.header ul li img {
+  width: 100px;
+  margin-right: 56px;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  padding: 10px 20px 10px 20px;
+}
+
+.header ul div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header ul div li {
+  margin-left: 15px;
+  color: var(--Neutral);
+  font-weight: 400;
+}
