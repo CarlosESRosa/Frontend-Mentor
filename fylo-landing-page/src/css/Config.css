@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --introAndEmailBG: #728097;
+  --mainBG: #181f2a;
+  --footerBG: #0b1523;
+  --testimonialsBG: #202a3c;
+
+  --cyan: #65e2d9;
+  --blue: #339ecc;
+  --lightRed: #ff4242;
+
+  --Neutral: #ffffff;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
