@@ -1,11 +1,13 @@
 import "./css/App.css";
 import "./css/Config.css";
-import Header from "./components/Header";
+import Header from "./components/Header/Header.js";
+import GetStarted from "./components/GetStarted/GetStarted";
 
 function App() {
   return (
     <main>
       <Header />
+      <GetStarted />
     </main>
   );
 }
