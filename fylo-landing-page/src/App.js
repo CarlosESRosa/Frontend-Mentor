@@ -13,12 +13,17 @@ import profile1 from "./images/profile-1.jpg";
 import profile2 from "./images/profile-2.jpg";
 import profile3 from "./images/profile-3.jpg";
 import quotes from "./images/bg-quotes.png";
+import logo from "./images/logo.svg";
+import locationIcon from "./images/icon-location.svg";
+import phoneIcon from "./images/icon-phone.svg";
+import emailIcon from "./images/icon-email.svg";
 
 import "./css/App.css";
 import "./css/Config.css";
 import "./css/GetStarted.css";
 import "./css/EarlyAccess.css";
 import "./css/StayProductive.css";
+import "./css/CompanyInfos.css";
 
 function App() {
   return (
@@ -105,6 +110,24 @@ function App() {
         </p>
         <input type="email" placeholder="email@example.com"></input>
         <button>Get Started For Free</button>
+      </div>
+      <div className="company-infos">
+        <img src={logo} alt="Fylo logo" id="logo-info"></img>
+        <div>
+          <img src={locationIcon} alt="location icon"></img>
+          <p>
+            Lorem ipsum solor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua
+          </p>
+        </div>
+        <div>
+          <img src={phoneIcon} alt="Phone icon"></img>
+          <p>+1-5433-123-4567</p>
+        </div>
+        <div>
+          <img src={emailIcon} alt="Email icon"></img>
+          <p>example@fylo.com</p>
+        </div>
       </div>
     </main>
   );
