@@ -25,6 +25,7 @@ import "./css/EarlyAccess.css";
 import "./css/StayProductive.css";
 import "./css/CompanyInfos.css";
 import "./css/AboutUs.css";
+import "./css/ContactUs.css";
 
 function App() {
   return (
@@ -136,6 +137,13 @@ function App() {
           <li>Jobs</li>
           <li>Press</li>
           <li>Blog</li>
+        </ul>
+      </div>
+      <div className="contact-us">
+        <ul>
+          <li>Contact Us</li>
+          <li>Terms</li>
+          <li>Privacy</li>
         </ul>
       </div>
     </main>
