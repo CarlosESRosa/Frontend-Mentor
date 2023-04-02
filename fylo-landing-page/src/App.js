@@ -1,5 +1,4 @@
 import Header from "./components/Header/Header.js";
-import Button from "./components/Button/Button1.js";
 import Attribute from "./components/Attribute/Attribute.js";
 import UserFeedback from "./components/UserFeedback/UserFeedback.js";
 
@@ -36,7 +35,7 @@ function App() {
           Access them wherever you need, share and collaborate with friends
           family, and co-workers.
         </p>
-        <Button text="Get Started" />
+        <button className="get-started-button">Get Started</button>
       </div>
       <div className="attributes">
         <Attribute

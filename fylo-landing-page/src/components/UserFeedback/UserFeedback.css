@@ -1,14 +1,14 @@
 .user-feedback .feedback-box {
   background-color: var(--testimonialsBG);
-  padding: 15px;
+  padding: 20px 15px 20px 15px;
   border-radius: 3px;
   margin-bottom: 30px;
 }
 
 .user-feedback .feedback-box p {
   color: var(--Neutral);
-  font-weight: 400;
-  font-size: 11px;
+  font-weight: 300;
+  font-size: 12px;
 }
 
 .user-feedback .feedback-box .profile-content {

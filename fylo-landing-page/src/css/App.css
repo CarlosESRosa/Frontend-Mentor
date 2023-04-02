@@ -26,9 +26,22 @@ main {
 
 .getStarted .basic-text {
   color: var(--Neutral);
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 300;
+  font-size: 15px;
   margin-top: 20px;
+}
+
+.getStarted .get-started-button {
+  background-color: var(--blue);
+  color: var(--Neutral);
+  padding: 15px;
+  border-radius: 25px;
+  border: none;
+  width: 200px;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .attributes {
@@ -37,6 +50,7 @@ main {
   margin: auto;
   margin-top: 120px;
 }
+
 .attributes div {
   margin-top: 70px;
 }
@@ -46,7 +60,7 @@ main {
   flex-direction: column;
   margin: auto;
   width: 300px;
-  margin-top: 120px;
+  margin-top: 140px;
 }
 
 .stay-productive img {
@@ -64,14 +78,18 @@ main {
 
 .stay-productive p {
   color: var(--Neutral);
-  font-weight: 400;
+  font-weight: 300;
   font-size: 14px;
   margin-bottom: 20px;
 }
 
 .stay-productive a {
   color: var(--cyan);
-  font-weight: 400;
+  font-weight: 300;
+  text-decoration: none;
+  width: 130px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid cyan;
 }
 
 .user-feedback {
@@ -113,7 +131,7 @@ main {
 
 .early-access p {
   color: var(--Neutral);
-  font-weight: 400;
+  font-weight: 300;
   font-size: 14px;
   margin-bottom: 35px;
 }
@@ -133,6 +151,8 @@ main {
   border-radius: 25px;
   color: var(--Neutral);
   margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .company-infos {
@@ -158,8 +178,8 @@ main {
 
 .company-infos div p {
   color: var(--Neutral);
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 300;
+  font-size: 15px;
 }
 
 .about-us {
@@ -176,14 +196,14 @@ main {
 .about-us ul li {
   list-style: none;
   color: var(--Neutral);
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
   padding-bottom: 15px;
 }
 
 .contact-us {
   background-color: var(--footerBG);
-  padding-top: 60px;
+  padding-top: 40px;
 }
 
 .contact-us ul {
@@ -194,14 +214,14 @@ main {
 .contact-us ul li {
   list-style: none;
   color: var(--Neutral);
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
   padding-bottom: 15px;
 }
 
 footer {
   background-color: var(--footerBG);
-  padding-top: 80px;
+  padding-top: 60px;
   margin: auto;
   display: flex;
   align-items: center;
