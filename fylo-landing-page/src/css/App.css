@@ -136,7 +136,12 @@ main {
   margin-bottom: 35px;
 }
 
-.early-access input {
+.early-access div {
+  display: flex;
+  flex-direction: column;
+}
+
+.early-access div input {
   background-color: var(--Neutral);
   border: none;
   padding: 15px;
@@ -144,7 +149,7 @@ main {
   margin-bottom: 25px;
 }
 
-.early-access button {
+.early-access div button {
   background-color: var(--blue);
   border: none;
   padding: 15px;
@@ -155,45 +160,58 @@ main {
   font-weight: 500;
 }
 
-.company-infos {
+footer {
+  display: flex;
+  flex-direction: column;
   background-color: var(--footerBG);
   margin-top: -200px;
 }
 
-.company-infos #logo-info {
+footer #logo-info {
   margin-top: 270px;
   margin-bottom: 35px;
-  margin-left: 50px;
+  margin-left: 35px;
+  width: 200px;
 }
 
-.company-infos div {
+footer .company-infos {
   display: flex;
-  gap: 25px;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   width: 300px;
   margin: auto;
+}
+
+footer .company-infos div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
   margin-bottom: 20px;
 }
 
-.company-infos div p {
+footer .company-infos div p {
+  max-width: 87%;
   color: var(--Neutral);
   font-weight: 300;
   font-size: 15px;
 }
 
-.about-us {
-  background-color: var(--footerBG);
-  padding-top: 80px;
+footer .company-infos #location-company-info {
+  gap: 26px;
+}
+
+footer .company-infos #email-company-info {
   margin-top: -20px;
 }
 
-.about-us ul {
-  width: 300px;
-  margin: auto;
+footer .company-infos ul {
+  margin-top: 30px;
 }
 
-.about-us ul li {
+footer .company-infos ul li {
   list-style: none;
   color: var(--Neutral);
   font-weight: 300;
@@ -201,30 +219,8 @@ main {
   padding-bottom: 15px;
 }
 
-.contact-us {
-  background-color: var(--footerBG);
-  padding-top: 40px;
-}
-
-.contact-us ul {
-  width: 300px;
+footer .company-infos #social-midia {
   margin: auto;
-}
-
-.contact-us ul li {
-  list-style: none;
-  color: var(--Neutral);
-  font-weight: 300;
-  font-size: 16px;
-  padding-bottom: 15px;
-}
-
-footer {
-  background-color: var(--footerBG);
-  padding-top: 60px;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding-top: 70px;
   padding-bottom: 40px;
 }

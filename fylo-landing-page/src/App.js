@@ -20,6 +20,7 @@ import socialMidia from "./images/social-midia.png";
 
 import "./css/App.css";
 import "./css/Config.css";
+import "./css/Responsive.css";
 
 function App() {
   return (
@@ -65,37 +66,41 @@ function App() {
       </section>
       <section className="stay-productive">
         <img src={stayProductive} alt="Peoples talking"></img>
-        <h2>Stay productive, wherever you are</h2>
-        <p>
-          Never let location be an issue when accessing your files. Fylo has you
-          covered for all of your file storage needs
-        </p>
-        <p>
-          Secyrely share files and folders wih friends, family and colleagues
-          for live collaboration. No email attachments required.
-        </p>
-        <a href="#">See how Fylo works</a>
+        <div>
+          <h2>Stay productive, wherever you are</h2>
+          <p>
+            Never let location be an issue when accessing your files. Fylo has
+            you covered for all of your file storage needs
+          </p>
+          <p>
+            Secyrely share files and folders wih friends, family and colleagues
+            for live collaboration. No email attachments required.
+          </p>
+          <a href="#">See how Fylo works</a>
+        </div>
       </section>
       <section className="user-feedback">
         <img src={quotes} id="quotes" alt="quotes"></img>
-        <UserFeedback
-          feedback="Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."
-          img={profile1}
-          name="Satish Patel"
-          office="Founder & CEO, Hunddle"
-        />
-        <UserFeedback
-          feedback="Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."
-          img={profile2}
-          name="Bruce McKenzie"
-          office="Founder & CEO, Hunddle"
-        />
-        <UserFeedback
-          feedback="Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."
-          img={profile3}
-          name="Iva Boyd"
-          office="Founder & CEO, Hunddle"
-        />
+        <div>
+          <UserFeedback
+            feedback="Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."
+            img={profile1}
+            name="Satish Patel"
+            office="Founder & CEO, Hunddle"
+          />
+          <UserFeedback
+            feedback="Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."
+            img={profile2}
+            name="Bruce McKenzie"
+            office="Founder & CEO, Hunddle"
+          />
+          <UserFeedback
+            feedback="Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."
+            img={profile3}
+            name="Iva Boyd"
+            office="Founder & CEO, Hunddle"
+          />
+        </div>
       </section>
       <section className="early-access">
         <h2>Get early access today</h2>
@@ -104,44 +109,48 @@ function App() {
           extremely generous. If you have any questions, our support team would
           be happy to help you.
         </p>
-        <input type="email" placeholder="email@example.com"></input>
-        <button>Get Started For Free</button>
-      </section>
-      <section className="company-infos">
-        <img src={logo} alt="Fylo logo" id="logo-info"></img>
         <div>
-          <img src={locationIcon} alt="location icon"></img>
-          <p>
-            Lorem ipsum solor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua
-          </p>
-        </div>
-        <div>
-          <img src={phoneIcon} alt="Phone icon"></img>
-          <p>+1-5433-123-4567</p>
-        </div>
-        <div>
-          <img src={emailIcon} alt="Email icon"></img>
-          <p>example@fylo.com</p>
+          <input type="email" placeholder="email@example.com"></input>
+          <button>Get Started For Free</button>
         </div>
       </section>
-      <div className="about-us">
-        <ul>
-          <li>About Us</li>
-          <li>Jobs</li>
-          <li>Press</li>
-          <li>Blog</li>
-        </ul>
-      </div>
-      <div className="contact-us">
-        <ul>
-          <li>Contact Us</li>
-          <li>Terms</li>
-          <li>Privacy</li>
-        </ul>
-      </div>
       <footer>
-        <img src={socialMidia} alt="social midia icons"></img>
+        <img src={logo} alt="Fylo logo" id="logo-info"></img>
+        <div className="company-infos">
+          <div id="location-company-info">
+            <img src={locationIcon} alt="location icon"></img>
+            <p>
+              Lorem ipsum solor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </p>
+          </div>
+          <div className="phone-email">
+            <div>
+              <img src={phoneIcon} alt="Phone icon"></img>
+              <p>+1-5433-123-4567</p>
+            </div>
+            <div id="email-company-info">
+              <img src={emailIcon} alt="Email icon"></img>
+              <p>example@fylo.com</p>
+            </div>
+          </div>
+          <ul>
+            <li>About Us</li>
+            <li>Jobs</li>
+            <li>Press</li>
+            <li>Blog</li>
+          </ul>
+          <ul>
+            <li>Contact Us</li>
+            <li>Terms</li>
+            <li>Privacy</li>
+          </ul>
+          <img
+            src={socialMidia}
+            alt="social midia icons"
+            id="social-midia"
+          ></img>
+        </div>
       </footer>
     </main>
   );
