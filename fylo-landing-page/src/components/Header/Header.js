@@ -5,7 +5,7 @@ import "./Header.css";
 
 export default function Header() {
   return (
-    <div className="header">
+    <header className="header">
       <ul>
         <li>
           <img src={logo}></img>
@@ -16,6 +16,6 @@ export default function Header() {
           <li>Sign In</li>
         </div>
       </ul>
-    </div>
+    </header>
   );
 }

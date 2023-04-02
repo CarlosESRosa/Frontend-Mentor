@@ -25,7 +25,7 @@ function App() {
   return (
     <main>
       <Header />
-      <div className="getStarted">
+      <section className="getStarted">
         <img src={ilustrationIntro}></img>
         <h1 className="main-title">
           All your files in one secure location, accessible anywhere.
@@ -36,11 +36,11 @@ function App() {
           family, and co-workers.
         </p>
         <button className="get-started-button">Get Started</button>
-      </div>
-      <div className="attributes">
+      </section>
+      <section className="attributes">
         <Attribute
           img={attibuteImg1}
-          alt="Computer and cell phone"
+          alt="Computer and phone"
           title="Access your files, anywhere"
           text="The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere"
         />
@@ -62,9 +62,9 @@ function App() {
           title="Store any type of file"
           text="Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be secyrely stored and shared."
         />
-      </div>
-      <div className="stay-productive">
-        <img src={stayProductive}></img>
+      </section>
+      <section className="stay-productive">
+        <img src={stayProductive} alt="Peoples talking"></img>
         <h2>Stay productive, wherever you are</h2>
         <p>
           Never let location be an issue when accessing your files. Fylo has you
@@ -75,8 +75,8 @@ function App() {
           for live collaboration. No email attachments required.
         </p>
         <a href="#">See how Fylo works</a>
-      </div>
-      <div className="user-feedback">
+      </section>
+      <section className="user-feedback">
         <img src={quotes} id="quotes" alt="quotes"></img>
         <UserFeedback
           feedback="Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."
@@ -96,8 +96,8 @@ function App() {
           name="Iva Boyd"
           office="Founder & CEO, Hunddle"
         />
-      </div>
-      <div className="early-access">
+      </section>
+      <section className="early-access">
         <h2>Get early access today</h2>
         <p>
           It only takes a minute to sign up and our free starter tier is
@@ -106,8 +106,8 @@ function App() {
         </p>
         <input type="email" placeholder="email@example.com"></input>
         <button>Get Started For Free</button>
-      </div>
-      <div className="company-infos">
+      </section>
+      <section className="company-infos">
         <img src={logo} alt="Fylo logo" id="logo-info"></img>
         <div>
           <img src={locationIcon} alt="location icon"></img>
@@ -124,7 +124,7 @@ function App() {
           <img src={emailIcon} alt="Email icon"></img>
           <p>example@fylo.com</p>
         </div>
-      </div>
+      </section>
       <div className="about-us">
         <ul>
           <li>About Us</li>
@@ -141,7 +141,7 @@ function App() {
         </ul>
       </div>
       <footer>
-        <img src={socialMidia}></img>
+        <img src={socialMidia} alt="social midia icons"></img>
       </footer>
     </main>
   );
