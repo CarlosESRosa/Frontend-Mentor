@@ -8,3 +8,13 @@ main {
   margin-bottom: -4px;
   margin-left: 6px;
 }
+
+footer {
+  background-color: var(--footerBG);
+  padding-top: 80px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+}

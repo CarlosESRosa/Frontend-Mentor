@@ -17,6 +17,7 @@ import logo from "./images/logo.svg";
 import locationIcon from "./images/icon-location.svg";
 import phoneIcon from "./images/icon-phone.svg";
 import emailIcon from "./images/icon-email.svg";
+import socialMidia from "./images/social-midia.png";
 
 import "./css/App.css";
 import "./css/Config.css";
@@ -146,6 +147,9 @@ function App() {
           <li>Privacy</li>
         </ul>
       </div>
+      <footer>
+        <img src={socialMidia}></img>
+      </footer>
     </main>
   );
 }
