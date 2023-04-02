@@ -21,12 +21,6 @@ import socialMidia from "./images/social-midia.png";
 
 import "./css/App.css";
 import "./css/Config.css";
-import "./css/GetStarted.css";
-import "./css/EarlyAccess.css";
-import "./css/StayProductive.css";
-import "./css/CompanyInfos.css";
-import "./css/AboutUs.css";
-import "./css/ContactUs.css";
 
 function App() {
   return (
