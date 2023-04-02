@@ -24,6 +24,7 @@ import "./css/GetStarted.css";
 import "./css/EarlyAccess.css";
 import "./css/StayProductive.css";
 import "./css/CompanyInfos.css";
+import "./css/AboutUs.css";
 
 function App() {
   return (
@@ -128,6 +129,14 @@ function App() {
           <img src={emailIcon} alt="Email icon"></img>
           <p>example@fylo.com</p>
         </div>
+      </div>
+      <div className="about-us">
+        <ul>
+          <li>About Us</li>
+          <li>Jobs</li>
+          <li>Press</li>
+          <li>Blog</li>
+        </ul>
       </div>
     </main>
   );
