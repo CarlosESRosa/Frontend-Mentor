@@ -9,24 +9,24 @@ function App() {
   return (
     <main>
       <div className="nft-box">
-        <img src={nftImage} id="main-img"></img>
+        <img src={nftImage} id="main-img" alt="nft ilustration"></img>
         <h1>Equilibrium #3429</h1>
         <p>Our Equilibrium collection promotes balance and calm.</p>
-        <div id="infos-section">
+        <section id="infos-section">
           <div>
-            <img src={nftIcon}></img>
+            <img src={nftIcon} alt="nft icon"></img>
             <span id="nft-value">0.041 ETH</span>
           </div>
           <div>
-            <img src={clockIcon}></img>
+            <img src={clockIcon} alt="clock icon"></img>
             <span>3 3days left</span>
           </div>
-        </div>
-        <div className="profile-infos">
-          <img src={profileImg}></img>
+        </section>
+        <section className="profile-infos">
+          <img src={profileImg} alt="people profile"></img>
           <p>Creation of</p>
           <span>Jules Wyvern</span>
-        </div>
+        </section>
       </div>
     </main>
   );
