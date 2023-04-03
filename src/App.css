@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --mainBG: #0d192b;
+  --cardBG: #14253d;
+  --line: #9eb2d4;
+  --white: #ffffff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+main {
+  background-color: var(--mainBG);
+  font-family: "Outfit", sans-serif;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  min-height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+main .nft-box {
+  background-color: var(--cardBG);
+  width: 280px;
+  padding: 20px;
+  border-radius: 15px;
+  color: var(--white);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+main .nft-box #main-img {
+  width: 100%;
+  border-radius: 7px;
+  margin-bottom: 25px;
+}
+
+main .nft-box h1 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+}
+
+main .nft-box p {
+  font-weight: 300;
+  color: var(--line);
+}
+
+main .nft-box #infos-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--line);
+}
+
+main .nft-box #infos-section #nft-value {
+  color: cyan;
+  font-weight: 500;
+}
+
+main .nft-box #infos-section div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--line);
+}
+
+main .nft-box .profile-infos {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+main .nft-box .profile-infos img {
+  width: 35px;
+  margin-right: 20px;
+}
+
+main .nft-box .profile-infos span {
+  margin-left: 4px;
+  font-weight: 300;
 }
